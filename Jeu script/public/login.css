@@ -1,0 +1,141 @@
+body{
+background-color: black;
+}
+
+.login-form,
+.login-form h1,
+.login-form span,
+.login-form input,
+.login-form label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.login-form label {
+    color: white;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.login-form {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px 250px 0 250px;
+    margin-top: 120px;
+    cursor: default;
+ 
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+}
+
+
+
+.login-form h1 {
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #e4e4e4;
+}
+
+.login-form input[type=text],
+.login-form input[type=submit] {
+    line-height: 14px;
+    margin: 10px 0;
+    padding: 6px 15px;
+    border: 0;
+    outline: none;
+ 
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(255,255,255, .2);
+
+    border-radius: 26px;
+ 
+    transition: all .15s ease-in-out;
+}
+
+.login-form input[type=text],
+.js .login-form span {
+    color: #686868;
+    width: 170px;
+ 
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6);
+ 
+   
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#989898 100%);
+}
+
+.login-form input[type=text]:hover{
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+}
+
+.login-form input[type=text]:focus {
+
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+    background: linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+}
+
+.login-form input[type=submit] {
+
+    cursor: pointer;
+ 
+    color: #445b0f;
+ 
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+}
+
+
+.login-form input[type=submit]:hover {
+    box-shadow: inset 1px 1px 3px 0px rgba(255,255,255, .8), 0px 1px 1px 0px rgba(0,0,0, .6);
+}
+ 
+.login-form input[type=submit]:active {
+
+    box-shadow: none;
+}
+
+.login-form input[type=submit],
+.js .login-form span.checked:before {
+
+    background: -webkit-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+}
+
+.js .login-form input[type=checkbox] {
+    position: fixed;
+    left: -9999px;
+}
+
+.login-form span {
+    position: relative;
+    margin-top: 15px;
+    float: left;
+}
+
+.js .login-form span {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+ 
+    border-radius: 2px;
+}
+
+.js .login-form span.checked:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+ 
+    box-shadow: 0px 1px 1px 0px rgba(255,255,255, .45), inset 0px 1px 1px 0px rgba(0,0,0, .3);
+}
+

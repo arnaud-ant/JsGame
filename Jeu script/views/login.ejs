@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <link rel="stylesheet" href="login.css">
+         <title>Login</title>
+    </head>
+    <body class="login">
+        <div class="login-form">
+            <h1>Votre nom :</h1>
+            <form method="post" id="pseudo">
+                <input type="text" id="inPseudo" name="user[name]" placeholder="30 caractères maximum" maxlength="30" required>
+                <select name="char" id="charSelect">
+                    <option value="1">Etudiant</option>
+                    <option value="2">Deadpool</option>
+                    <option value="3">Thor</option>
+                    <option value="4">Leïa</option>
+                  </select>
+                <input type="submit" value="Se connecter">
+            </form>
+        </div>
+    </body>
+</html>
